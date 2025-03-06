@@ -13,8 +13,8 @@ const CalcDiv = styled.div`
 
     @media screen and (max-width: 750px){
         max-width: 75%;
-        margin: 2vw auto;
-        padding: 4vw;
+        margin: 1.5vw auto;
+        padding: 3vw;
         border-radius: 2vw;
     }
 `
@@ -28,7 +28,7 @@ const ProjectTitle = styled.h3`
 
     @media screen and (max-width: 750px){
         font-size: 4vw;
-        padding: 4vw;
+        padding: 2vw;
         border-radius: 2vw;
     }
 `
@@ -74,7 +74,7 @@ const InputDiv = styled.div`
 
     @media screen and (max-width: 750px){
         width: 75%;
-        margin: 4vw auto;
+        margin: 2vw auto;
     }
 `
 
@@ -85,8 +85,8 @@ const StyledInput = styled.input`
     font-size: 1.5vw;
 
     @media screen and (max-width: 750px){
-        padding: 2.5vw;
-        margin: 3vw;
+        padding: 2vw;
+        margin: 2vw;
         font-size: 2.5vw;
     }
 `
@@ -102,7 +102,7 @@ const StyledOutput = styled.output`
 
     @media screen and (max-width: 750px){
         font-size: 3vw;
-        padding: 4vw;
+        padding: 1.5vw;
         border-radius: 2vw;
         width: 90%;
     }

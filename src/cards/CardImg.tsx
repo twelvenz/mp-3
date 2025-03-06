@@ -7,7 +7,7 @@ const CardImg = styled.img`
 
     @media screen and (max-width: 750px){
         align-self: center;
-        width: 30%;
+        width: 27%;
         max-width: 100%;
         margin: 1vh auto;
     }

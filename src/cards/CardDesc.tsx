@@ -13,7 +13,7 @@ const CardDesc = styled.div`
         width: 100%;
         display: flex;
         justify-content: center;
-        font-size: 3vw;
+        font-size: 2.5vw;
         text-align: center;
     }
 `

@@ -26,10 +26,8 @@ export default function Home() {
                     </PortraitImg>
                     <CardDesc>
                         <h3> My name is Elven Zheng.</h3>
-
-                        <p> I am a second year Computer Science major at Boston University.
-                            I aspire to be a software engineer.
-                        </p>
+                        <p> I am a second year CS major at Boston University.</p>
+                        <p>I aspire to be a software engineer.</p>
                         <p> Welcome to my resume website!</p>
                     </CardDesc>
                 </CardContent>
