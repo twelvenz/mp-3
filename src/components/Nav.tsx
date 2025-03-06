@@ -50,22 +50,22 @@ export default function Nav() {
         <StyledNav>
             <StyledUl>
                 <StyledLi>
-                    <StyledLink to="/">Home</StyledLink>
+                    <StyledLink to={`/`}>Home</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink to="/education">Education</StyledLink>
+                    <StyledLink to={`/education`}>Education</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink to="/certifications">Certifications</StyledLink>
+                    <StyledLink to={`/certifications`}>Certifications</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink to="/experience">Experience</StyledLink>
+                    <StyledLink to={`/experience`}>Experience</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink to="/projects">Projects</StyledLink>
+                    <StyledLink to={`/projects`}>Projects</StyledLink>
                 </StyledLi>
                 <StyledLi>
-                    <StyledLink to="/contact">Contact Me</StyledLink>
+                    <StyledLink to={`/contact`}>Contact Me</StyledLink>
                 </StyledLi>
             </StyledUl>
         </StyledNav>
