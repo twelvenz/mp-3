@@ -8,7 +8,7 @@ import {useEffect} from "react";
 
 function CertTitle() {
     useEffect(() => {
-        document.title = "My Resume - Certifications";
+        document.title = "Certifications | Resume";
     }, []);
 
     return <></>;

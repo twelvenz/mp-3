@@ -9,7 +9,7 @@ import {useEffect} from "react";
 
 function ContactTitle() {
     useEffect(() => {
-        document.title = "My Resume - Contact";
+        document.title = "Contact | Resume";
     }, []);
 
     return <></>;

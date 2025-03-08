@@ -5,7 +5,7 @@ import {useEffect} from "react";
 
 function ProjectTitle() {
     useEffect(() => {
-        document.title = "My Resume - Projects";
+        document.title = "Projects | Resume";
     }, []);
 
     return <></>;

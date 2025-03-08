@@ -18,7 +18,7 @@ const PortraitImg = styled.div`
 
 function HomeTitle() {
     useEffect(() => {
-        document.title = "My Resume - Home";
+        document.title = "Home | Resume";
     }, []);
     return <></>
 }
