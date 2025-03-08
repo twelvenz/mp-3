@@ -3,6 +3,7 @@ import Card from "../cards/Card.tsx";
 import CardTitle from "../cards/CardTitle.tsx";
 import CardContent from "../cards/CardContent.tsx";
 import CardDesc from "../cards/CardDesc.tsx";
+import {useEffect} from "react";
 
 const PortraitImg = styled.div`
     max-width: 100%;
@@ -15,9 +16,18 @@ const PortraitImg = styled.div`
     }
 `
 
+function HomeTitle() {
+    useEffect(() => {
+        document.title = "My Resume - Home";
+    }, []);
+    return <></>
+}
+
+
 export default function Home() {
     return(
         <>
+            <HomeTitle/>
             <Card>
                 <CardTitle>Home</CardTitle>
                 <CardContent>

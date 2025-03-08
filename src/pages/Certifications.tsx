@@ -4,10 +4,20 @@ import CardTitle from "../cards/CardTitle.tsx";
 import CardContent from "../cards/CardContent.tsx";
 import CardImg from "../cards/CardImg.tsx";
 import CardDesc from "../cards/CardDesc.tsx";
+import {useEffect} from "react";
+
+function CertTitle() {
+    useEffect(() => {
+        document.title = "My Resume - Certifications";
+    }, []);
+
+    return <></>;
+}
 
 export default function Certifications(){
     return (
         <>
+            <CertTitle />
             <Card>
                 <CardTitle>Certifications</CardTitle>
                 <CardContent>

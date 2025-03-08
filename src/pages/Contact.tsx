@@ -5,10 +5,20 @@ import CardContent from "../cards/CardContent.tsx";
 import CardDesc from "../cards/CardDesc.tsx";
 import CardImg from "../cards/CardImg.tsx";
 import {Link} from "react-router";
+import {useEffect} from "react";
+
+function ContactTitle() {
+    useEffect(() => {
+        document.title = "My Resume - Contact";
+    }, []);
+
+    return <></>;
+}
 
 export default function Contact(){
     return(
         <>
+            <ContactTitle />
             <Card>
                 <CardTitle>Contact</CardTitle>
                 <CardContent>

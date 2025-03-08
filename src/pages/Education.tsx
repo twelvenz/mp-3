@@ -4,10 +4,20 @@ import CardTitle from "../cards/CardTitle.tsx";
 import CardContent from "../cards/CardContent.tsx";
 import CardImg from "../cards/CardImg.tsx";
 import CardDesc from "../cards/CardDesc.tsx";
+import {useEffect} from "react";
+
+function EduTitle() {
+    useEffect(() => {
+        document.title = "My Resume - Education";
+    }, []);
+
+    return <></>;
+}
 
 export default function Education(){
     return(
         <>
+            <EduTitle />
             <Card>
                 <CardTitle>Education</CardTitle>
                 <CardContent>
